@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CASO UNO */
+.caso-uno{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.caso-uno .contenedor .hijo1 img{
+    height: 100px;
+}
+
+/* CASO 2 */
+.caso-dos .contenedor{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+
+}
+
+.caso-dos .contenedor .hijo2 .img{
+    width: 100px;
+}
+
+/* CASO 3 */
+.caso-tres{
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    align-items: end;
+    justify-content: center;
+}
+
+.caso-tres .contenedor{
+    display: flex;
+    gap: 70px;
+}
+
+.caso-tres .contenedor .hijo3 .img{
+    width: 200px;
+}
+
+/* CASO 4 (no pude poner todos a la derecha, usé padding :( */
+.caso-cuatro{
+    display: flex;
+    height: 100vh;
+}
+
+.caso-cuatro .contenedor{
+    display: flex;
+    padding-left: 90%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.caso-cuatro .contenedor .hijo4 .img{
+    height: 100px;
+}
+
